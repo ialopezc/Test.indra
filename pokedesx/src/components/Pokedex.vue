@@ -19,14 +19,13 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <button class="btn btn-dark box_shadow_left" type="button" id="btn_poke_buscar"
-                        tabindex="2" @click="$store.commit('pokeAPI')">Buscar</button>
+                    <button class="btn btn-dark box_shadow_left" type="button" id="btn_poke_buscar" tabindex="2"
+                        @click="$store.commit('pokeAPI')">Buscar</button>
                 </div>
                 <div class="col-12" id="div_input_poke_name">
                     <div class="form-group mb-0">
                         <input name="input_poke_name" id="input_poke_name" class="form-control bg_verde" tabindex="1"
-                            autofocus
-                            v-on:keyup="$store.commit('pokeAPI')">
+                            autofocus v-on:keyup="$store.commit('pokeAPI')">
                         <label for="input_poke_name" class="text-white pb-0"><small>Escribe
                                 el
                                 nombre o él, id del Pokémon</small></label>
@@ -59,3 +58,8 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: "Pokedex",
+};
+</script>

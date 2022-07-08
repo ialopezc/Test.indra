@@ -6,19 +6,19 @@
     </div>
     <div class="row">
         <div class="container">
-            <Pokedesk />
+            <Pokedex />
         </div>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Pokedesk from '@/components/Pokedesk.vue'
+import Pokedex from '@/components/Pokedex.vue'
 
 export default {
-    name: 'HomeView',
+    name: 'IndexView',
     components: {
-        Pokedesk
+        Pokedex
     }
 }
 </script>
