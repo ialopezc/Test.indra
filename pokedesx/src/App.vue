@@ -1,0 +1,97 @@
+<template>
+    <div id="div_pokedex" class="col-12">
+        <router-view />
+    </div>
+</template>
+
+<style>
+.row .container {
+    min-width: 1139px !important;
+    max-width: 1140px !important;
+    width: 1140px !important
+}
+
+#pokedesk_image {
+    width: 1110px !important
+}
+
+#poke_content_left {
+    padding-top: 176px;
+    padding-left: 69px;
+    padding-right: 40px
+}
+
+#div_poke_image {
+    padding: 71px 57px 88px 61px;
+    min-height: 385px;
+    max-height: 386px
+}
+
+#btn_poke_buscar {
+    border-radius: 100px;
+    height: 70px
+}
+
+.bg_verde,
+.bg_verde:focus {
+    background-color: #00ad5d
+}
+
+#div_input_poke_name {
+    padding-left: 69px;
+    padding-right: 162px;
+    padding-top: 22px
+}
+
+#input_poke_name {
+    height: 87px
+}
+
+.box_shadow_left {
+    box-shadow: -3px 3px 0#000, -3px 3px 10px #000
+}
+
+#poke_content_right {
+    padding: 250px 114px 39px 106px;
+    height: 762px
+}
+
+.div_stats,
+.text_pokedesx {
+    color: #bdae08
+}
+
+#div_altura_peso,
+#input_poke_debilidad,
+#input_poke_tipo {
+    margin-bottom: 7px
+}
+
+#input_poke_altura,
+#input_poke_peso {
+    background: 0 0;
+    border: 0;
+    color: #bdae08;
+    width: -webkit-fill-available;
+    margin-left: 47px
+}
+
+#input_poke_peso {
+    margin-left: 45px
+}
+
+#div_caracteristicas {
+    background-color: #002924;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-height: 325px;
+    overflow-y: auto
+}
+
+.div_stats {
+    max-width: 130px;
+    padding-right: 0;
+    text-align: end
+}
+</style>
